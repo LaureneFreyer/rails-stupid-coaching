@@ -1,0 +1,14 @@
+<h3>Here's his answer...</h3>
+
+<div class="you">
+  <h3 class="text"><%= params[:ask] %></h3>
+  <p>- You</p>
+</div>
+<br>
+<div class="coach">
+  <h3 class="text"><%= @answer %></h3>
+  <p>- Coach</p>
+</div>
+<br>
+<br>
+<%= link_to "Ask a new question", ask_path, class:"link" %>
